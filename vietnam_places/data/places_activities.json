@@ -1,0 +1,826 @@
+[
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Sample the street food",
+        "description": "For an authentic taste of Hanoi, look to the street kitchens of the Old Quarter. Steaming pots of its star anise-infused Phở broth simmer on every corner; while every day, the scent of bún chả fills the air as barbecued pork sizzles over hot coals."
+      },
+      {
+        "activity": "Stroll the Old Quarter",
+        "description": "Hanoi’s Old Quarter serves up a sensory overload. Wisps of incense drift out onto streets from ancient temples, while the clang of blacksmiths’ hammers mingles with mobile fruit sellers’ call. Jump in a cyclo and tour this intoxicating maze."
+      },
+      {
+        "activity": "Explore Hanoi's cafe culture",
+        "description": "Fast-paced on the surface, the true rhythm of Hanoi life is far from hurried and is reflected well in its leisurely coffee hours. Alongside traditional coffee houses, an ever-growing band of unique cafes serve new brews in cool caffeine dens."
+      },
+      {
+        "activity": "Check out the art scene",
+        "description": "Hanoi is Vietnam’s art capital. The elegant Fine Arts Museum houses the country’s foremost collection, such as ancient Cham artifacts and impressionist pieces. For something more contemporary, head for Manzi or the Vietnam Art Gallery."
+      },
+      {
+        "activity": "Join the locals at Hoan Kiem Lake",
+        "description": "Hoan Kiem Lake rests in the heart of Hanoi. Every morning it comes alive with walkers, aerobics classes, and even a laughing yoga group; and bursts back into activity at sunset, thronged with locals taking in the evening air."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/nha-trang",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Go beach-hunting",
+        "description": "During the day, Nha Trang Beach is awash with sunbathers. A few kilometres south of the city, Long Beach is home to a clutch of local seafood joints and surfing spots. If you feel like exploring farther, hire a motorbike to Dốc Lết or Đại Lãnh beaches."
+      },
+      {
+        "activity": "Try a mud bath",
+        "description": "Nha Trang's boasts a unique pair of wellness attractions: mud baths and hot springs. Hidden in the hills just north of the city are a handful of spa-like facilities, where you can sit in a healing pool of warm mud before relaxing in hot mineral water."
+      },
+      {
+        "activity": "Get on the water",
+        "description": "Daylong island excursions will show you around Nha Trang Bay, and a series of small islands nearby such as Monkey Island, Hòn Mun Island, and Yến Island where you’ll be greeted by beautiful, untouched shores."
+      },
+      {
+        "activity": "Visit pagodas and palaces",
+        "description": "Long Sơn Pagoda and its towering, 78-foot-tall Buddha statue are a sight to see, as are the centuries-old Po Nagar Cham Towers. Less-visited spots such as the Bảo Đại Villa south of Nha Trang also shed light on the region's history."
+      },
+      {
+        "activity": "Join the party",
+        "description": "Nha Trang plays hard during the day, but its night time energy is unmatched. International acts and DJs regularly play beachfront parties at Sailing Club and Skylight, while lively venues around town keep the party going well into the night."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/hue",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "See Imperial Vietnam",
+        "description": "Get acquainted with Vietnam’s last royal dynastic family by exploring what survives of their 143-year reign. Roam the palaces, pavilions and theatres of the Hue Citadel and make time to visit the tombs of emperors Tu Duc, Minh Mang and Khai Dinh."
+      },
+      {
+        "activity": "Eat like a king",
+        "description": "You’re never far from a world-class meal in Hue. Nose around the flapping-fresh produce at Dong Ba Market for a teaser, then whet your appetite with Hue’s much-loved snacks, such as Banh Khoai and Banh Beo."
+      },
+      {
+        "activity": "Explore the city's Buddhist roots",
+        "description": "Hue’s serene atmosphere is most penetrating in its pagodas and monasteries. See the iconic seven-tiered tower of Thien Mụ Pagoda, then pay a visit to Tu Hieu Monastery, where Thich Nhat Hanh spent his days as a novice monk."
+      },
+      {
+        "activity": "Cycle in the rice paddies",
+        "description": "Hue’s photogenic streets and lush countryside are a wonderland for casual cyclists. The ride to the tile-roofed Thanh Toan Bridge is one of Hue’s most captivating, winding past vegetable farms, footbridges, and flocks of ducks."
+      },
+      {
+        "activity": "Revisit colonial history",
+        "description": "Travellers with an eye for architecture will enjoy seeing what remains of French influence in Hue. Stroll down Le Loi to encounter the art déco lines of La Residence Hotel, and the stately crimson buildings of Quoc Hoc High School."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/hoi-an",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Get lost in the Old Town",
+        "description": "Merchants from China, Japan and later Europe settled in Hoi An from the 15th to 19th centuries, creating a unique architectural fusion. Bring your camera as you tread the Japanese Bridge, Tan Ky ancestral house, and Phuc Kien Assembly Hall."
+      },
+      {
+        "activity": "Treat your taste buds",
+        "description": "Dining in Hoi An is pure pleasure. Farms and fishing boats contribute just-picked vegetables, seafood, herbs and fruit to the markets daily. Three quintessential Hoi An dishes are Cao Lau, Hoanh Thanh, and white rose dumplings."
+      },
+      {
+        "activity": "Cycle in the countryside",
+        "description": "Sunrise in Hoi An is a prime time to grab your hat and hop on a bike. With any luck, you’ll find yourself in a sea of green, with water buffalo flicking their tails. In Cam Thanh and Tra Que, you’ll pass vegetable farms and frond-fringed ponds."
+      },
+      {
+        "activity": "Hit the beach",
+        "description": "An Bang Beach, just a 10-minute drive from the Ancient Town, promises seafood lunches, sandy stretches and cool waves. Bring your books, beach blankets, and bikinis; or board a boat to the pristine shores of the Cham Islands."
+      },
+      {
+        "activity": "Marvel at My Son",
+        "description": "My Son Sanctuary is a UNESCO Cultural Heritage Site 40 kilometres from Hoi An. Tucked into a valley near a shaded stream, these temples were built by the Cham people. The surviving structures date from the 7th to the 13th century."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/dalat",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Tour the city's landmarks",
+        "description": "Xuan Huong Lake is the focal point of Da Lat city. Nearby, the stalls of the central market are packed with fresh flowers and colourful produce. Colonial architecture abounds in churches, art-deco hotels, and the charming railway station."
+      },
+      {
+        "activity": "Play a round of golf",
+        "description": "At 5,000 feet above sea level, Da Lat’s golf clubs feature hilly terrains and pine forests. Da Lat is home to one of the country’s oldest courses, the Dalat Palace Golf Club. Opened in 1933, the 18-hole course remains an iconic experience."
+      },
+      {
+        "activity": "Hike, bike, or find a waterfall",
+        "description": "Da Lat is an adventure destination in its own right. The dramatic terrain lends itself well to hiking, mountain biking and canyoning. Follow local guides to explore Bidoup Nui Ba National Park, or blaze your own trails on Lang Biang mountain."
+      },
+      {
+        "activity": "Sample local coffee culture",
+        "description": "Coffee is an integral part of Da Lat’s heritage and some of Vietnam’s best coffee is grown on the slopes around the town and served in local cafes. Visit K’Ho Coffee for a full tour of their sustainable farm and roastery."
+      },
+      {
+        "activity": "Ride the train",
+        "description": "Though Da Lat's tracks no longer link up with Vietnam's north-south railway line, you can hop on a train out to Trai Mat for a visit to the spectacular, mosaic-covered Linh Phuoc Pagoda, taking in the scenery en route."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/da-nang",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Enjoy the beach",
+        "description": "Be sure to set the alarm clock early at least once on your stay. Along the shore, fishermen sell the day’s catch, football and volleyball matches spring up all around, and people jog, stroll or simply relax on the sand."
+      },
+      {
+        "activity": "See the Son Tra Peninsula",
+        "description": "The Son Tra Peninsula strikes out into the ocean, its densely forested hillsides are home to the endangered red-shanked douc langur -- one of the world’s most striking primates. Grab some binoculars, hire a motorbike, and head out for a day of wildlife spotting."
+      },
+      {
+        "activity": "Learn about Cham culture",
+        "description": "The Cham people once ruled much of Central Vietnam, and ruins of their temples have been excavated around Da Nang. The superb Cham Museum of Sculpture houses the largest collection of Cham sculpture in the world."
+      },
+      {
+        "activity": "Dine on street food",
+        "description": "Da Nang is a dream destination for foodies, with scores of seafront eateries and street food stalls. Mi Quang — a dish of rice noodles, pork, shrimp, quail eggs, peanuts and fresh herbs — is must-try delight."
+      },
+      {
+        "activity": "Explore Marble Mountains",
+        "description": "Marble Mountains is a collection of five outcrops topped with atmospheric pagodas, only 15 minutes from the city. Set out in the early morning to take a serene walk up stone steps, explore hidden caves, and admire ancient shrines."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Overview",
+        "description": "Home\n\t\t\t\t\t\n                                                            \t\t\t\t\t                    \n                        @media(min-width: 991px) {\n                            header nav > ul li.has-flyout.charm .flyout {\n                                width: 187px !important;\n                            }\n                        }\n                    \n                                        \n                                                                        Live fully in Vietnam"
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam/sapa",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Overview",
+        "description": "Home\n\t\t\t\t\t\n                                                            \t\t\t\t\t                    \n                        @media(min-width: 991px) {\n                            header nav > ul li.has-flyout.charm .flyout {\n                                width: 187px !important;\n                            }\n                        }\n                    \n                                        \n                                                                        Live fully in Vietnam"
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam/ninh-binh",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "See the view from Hang Mua",
+        "description": "Get a bird's-eye view of Ninh Binh at Hang Mua, where 500 steps have been dramatically carved into the steep face of a mountain. At the top, a lookout point offers a surreal vista of the river winding lazily among paddies and limestone outcrops."
+      },
+      {
+        "activity": "Take a sampan tour",
+        "description": "At the Tam Coc and Trang An boat docks, each sampan is guided by a boat person who rows with their feet, not their hands. You'll be expertly guided along gentle waterways, past towering karsts, and into dripping grottoes."
+      },
+      {
+        "activity": "Visit the ancient capital",
+        "description": "Today the capital of Vietnam is Hanoi, but in the 10th and 11th centuries that honour was held by Hoa Lu. This small ancient city was naturally protected from invasions by karsts and rivers. Today, it’s a good place to get a history fix."
+      },
+      {
+        "activity": "Go in search of wildlife",
+        "description": "An exotic row boat experience is a must-do at the Van Long Nature Reserve. Keep your eyes open for exotic friends, such as the black-faced spoonbill and the Delacour's Langur, one of the world’s most endangered primates."
+      },
+      {
+        "activity": "Pay a visit to the Bai Dinh Temple",
+        "description": "The largest complex of Buddhist temples in the country, Bai Dinh is a mix of old and new styles. Ancient temples are housed in caves you can only reach via a pretty climb of 300 steps, while the new temple area covers an area of 500 hectares."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam/mai-chau",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Sleep in a homestay",
+        "description": "The Mai Chau Valley is home to two excellent homestay tourism villages: Lac and Pom Coong. In both villages, White Thai families offer simple accommodation in stilt houses in an idyllic setting of verdant jungle, limestone outcrops, and mountain tops."
+      },
+      {
+        "activity": "Cycle around the valley",
+        "description": "Exploring the many quiet ribbons of paths that connect clusters of stilt houses might be the greatest pleasure you'll have in Mai Chau. It doesn’t take long to feel like you’ve found your own quiet corner, riding past humble villages and rice paddies."
+      },
+      {
+        "activity": "Shop for local crafts",
+        "description": "Mai Chau has no shortage of intricate fabrics woven by skilled weavers on ancient looms. A little gentle bargaining is expected and even welcomed. On Sunday, the morning market attracts ethnic minorities dressed in their finest traditional clothing."
+      },
+      {
+        "activity": "Eat with the locals",
+        "description": "Known for their warm hospitality, the White Thai are also fantastic cooks and serve up excellent home-cooked feasts for dinner. The meals you're served at the homestays in Mai Chau might be some of the best on your Vietnam trip."
+      },
+      {
+        "activity": "Plan a day trek",
+        "description": "For a full day trip, spring for a kayaking excursion on Hoa Binh Lake, a beautiful body of water surrounded by jungled hills. Or venture further to Pu Luong Nature Reserve where cool, fresh streams run among the trees, feeding waterfalls and aquamarine pools."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Cruise the bay",
+        "description": "Nothing beats spending watching the sun set over the calm waters of Ha Long Bay, and waking up to a serene morning surrounded by karsts. Relaxing on a sun deck surrounded by magnificent panoramas is the highlight of many a trip."
+      },
+      {
+        "activity": "Explore a floating village",
+        "description": "Ha Long Bay is not just a UNESCO-listed site, it’s also home to a number of fishing communities who have lived on the water for centuries. Take a boat tour around a floating village for a glimpse of this rare and beautiful way of life."
+      },
+      {
+        "activity": "Paddle out in a kayak",
+        "description": "Even if you’re not an experienced kayaker, you can’t miss the chance to navigate your way around Ha Long’s gorgeous seascape. Just before sunset is an ideal time to kayak to see quiet lagoons and fishing boats up close."
+      },
+      {
+        "activity": "Clamber into a cave",
+        "description": "Beneath their rocks and jungled exteriors, many of Ha Long’s ancient karsts have been carved out by rain and water currents. Take a look inside these geological wonders on foot — some are a squeeze while others are enormous."
+      },
+      {
+        "activity": "Try your hand at rock climbing",
+        "description": "There are countless routes in the bay to keep climbing junkies entertained. Deep water soloing is becoming increasingly popular in beautiful Ha Long Bay and Lan Ha Bay, especially on Butterfly Island."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-giang",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Drive Ma Pi Leng Pass",
+        "description": "The roads of Ha Giang serve up the ultimate motorcycle adventures. The drive into Dong Van is impossibly beautiful, however Ma Pi Leng — where the road snakes past the Nho Que River — is the jewel in Ha Giang crown."
+      },
+      {
+        "activity": "Get lost in the hills",
+        "description": "Trekking opportunities are plentiful in Ha Giang. The Quan Ba Pass holds a lookout that lives up to its name: Heaven’s Gate. Quan Ba is also the gateway to the lofty limestone peaks and rock-strewn fields of Dong Van Karst Plateau Geopark."
+      },
+      {
+        "activity": "Visit the Sa Phin H'Mong Palace",
+        "description": "Near the border with China stands a H'Mong King Palace in the village of Sa Phin. Built in 1902 during the French occupation, the wood-framed palace is done in the traditional Chinese style and oozes character."
+      },
+      {
+        "activity": "See the king of flagpoles",
+        "description": "Make time to journey north to Lung Cu, where a gigantic Vietnamese flag blows proudly at the border. The best time to arrive is late afternoon as the heat subsides, making the climb of 200 steps a little kinder."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam/phu-quoc",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Overview",
+        "description": "Home\n\t\t\t\t\t\n                                                            \t\t\t\t\t                    \n                        @media(min-width: 991px) {\n                            header nav > ul li.has-flyout.charm .flyout {\n                                width: 187px !important;\n                            }\n                        }\n                    \n                                        \n                                                                        Live fully in Vietnam"
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam/chau-doc",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Go on a temple-hopping tour",
+        "description": "Around 200 large and small religious sites are sprinkled on the slopes of Sam Mountain. Witness local offerings at Mieu Ba Chua Xu, climb through the warrens at Chua Hang (Cave Pagoda), or admire the architecture of Tay An Pagoda."
+      },
+      {
+        "activity": "Try local dishes",
+        "description": "Chau Doc’s food scene stars the best of the land and water. The iconic Bun Ca Bong Dien Dien is always a crowd-pleaser. Snack on Banh Bo Thot Not to satisfy your sweet tooth, and don’t leave without trying a Lau Mam dinner."
+      },
+      {
+        "activity": "Cruise Tra Su Forest",
+        "description": "More than 70 types of birds make their home in the Tra Su Cajuput Forest. This is the perfect place to immerse yourself in nature, cruise the flooded forest on a Tac Rang (motorised sampan) and learn about the biodiversity of the region."
+      },
+      {
+        "activity": "Visit the floating village",
+        "description": "Take a closer look at local culture with a tour of Chau Doc’s floating village, a 50-year-old fishing community on the Hau River. Houses here are built on rafts and double as fish farms, where catfish and snapper are grown for sale."
+      },
+      {
+        "activity": "Learn about Cham culture",
+        "description": "Chau Doc is home to some of Vietnam’s largest Cham communities. Chau Giang and Chau Phong are nested on two islets across the Hau River. Stop by the spectacular Mubarak Mosque, tour ancient stilt houses and sample Cham dishes."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam/can-tho",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Tour the islets",
+        "description": "Whether you go by bicycle or sampan, the islets of Can Tho are where you feel the real pulse of local life. Book a community-based tour to lunch with a local family, explore rice paper villages and fruit orchards, and enjoy a taste of pure Mekong Delta charm."
+      },
+      {
+        "activity": "Wake up for the floating markets",
+        "description": "It’s worth the early morning start to see Can Tho’s morning markets heaving with colourful boats and exotic produce. Cai Rang is the most famous in the area, but ask your local host about smaller floating markets where you can engage with the vendors."
+      },
+      {
+        "activity": "Taste Hu Tieu on a boat",
+        "description": "There’s nothing like a breakfast of steaming Hu Tieu noodles served on the water in the early morning. Sticky tapioca noodles, crunchy bean sprouts, and thinly sliced pork blend together in a tasty savoury broth. Slurp it up surrounded by the sounds of the market."
+      },
+      {
+        "activity": "Binh Thuy ancestral house",
+        "description": "Take a step back in time to see how Can Tho's wealthy merchant families lived. Built in 1870, this brightly painted house has housed several generations of the Duong family, and is a fascinating blend of French and Asian architecture."
+      },
+      {
+        "activity": "Relax by the riverside",
+        "description": "Can Tho offers several enticing places to stay, where discerning travellers can enjoy a tropical escape by the water’s edge. Spoil yourself at the Azerai Can Tho, relax with heartfelt hospitality at Victoria Can Tho, or try a sustainable homestay experience at Mekong Rustic."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Central",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/phu-yen",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Overview",
+        "description": "Home\n\t\t\t\t\t\n                                                            \t\t\t\t\t                    \n                        @media(min-width: 991px) {\n                            header nav > ul li.has-flyout.charm .flyout {\n                                width: 187px !important;\n                            }\n                        }\n                    \n                                        \n                                                                        Live fully in Vietnam"
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Central",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/northern-vietnam",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Overview",
+        "description": "Home\n\t\t\t\t\t\n                                                            \t\t\t\t\t                    \n                        @media(min-width: 991px) {\n                            header nav > ul li.has-flyout.charm .flyout {\n                                width: 187px !important;\n                            }\n                        }\n                    \n                                        \n                                                                        Live fully in Vietnam"
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam/binh-thuan",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Admire spiritual architecture",
+        "description": "Make a mini-pilgrimage to spiritual sites from the past and present. Northeast of Phan Thiet city, you’ll find the 1200-year-old Poshanu Cham Tower temples. Built in the Hoa Lai architectural style during the reign of the Champa Kingdom, these mysterious towers are national monuments. Two Buddhist temples atop Ta Cu Mountain are south of the city: Linh Son Truong Tho and Long Doan pagoda. There you’ll find the biggest reclining Buddha statue in Vietnam."
+      },
+      {
+        "activity": "Surf sand dunes",
+        "description": "There are many stretching dunes, sand, and beaches which attract tourists to come, play and snap away. Apart from the stunning photo ops, thrill-seekers can try 4x4 dune bashing, sandboarding, or sand sliding. Head to Bau Trang or Mui Ne to get in on the action."
+      },
+      {
+        "activity": "Catch a wave",
+        "description": "Wanting to surf some swells? Mui Ne is Vietnam’s surfing hotspot. Thanks to its fairly consistent waves and lashings of wind, it’s also the best place to learn how to kite-surf."
+      },
+      {
+        "activity": "Head to the hills",
+        "description": "Binh Thuan has some hilly and mountainous terrain for adventure-seekers or those wanting cooler, forest-like spaces. Mountain climbers, bikers, or hikers can head to Ta Cu Mountain. Or pack a picnic and rest beside Suoi Hong, the sparkling ‘fairy stream’ that runs between white stalactite hills."
+      },
+      {
+        "activity": "Explore the islands",
+        "description": "Go island-hopping to explore some of the province’s most pristine beaches and wild, deserted coastal landscapes. Check out Cu Lao Cau or Phu Quy island, among others."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam/con-dao",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Go beach-hunting",
+        "description": "Con Dao travellers are spoiled for choice when it comes to secluded beaches. Take a hike to Bai Ong Dung, a stony coastal spot where you can snorkel close to shore, or head to Dam Trau Beach or Dat Doc Beach for sunbathing."
+      },
+      {
+        "activity": "Sign up for a day trip",
+        "description": "Snorkelling and diving excursions on Con Dao reveal some of Vietnam's best underwater sightseeing. On land, hikers can arrange a guide through the national park office or set off on their own with a national park map."
+      },
+      {
+        "activity": "Visit the Con Dao Museum",
+        "description": "Con Dao is home to one of the most infamous former prisons in Vietnam, which was an incarceration facility for the French as well as the Americans. You can get a solid background on the island's history at the newly built Con Dao Museum."
+      },
+      {
+        "activity": "Have a wellness retreat",
+        "description": "There are few places in Vietnam that are more peaceful and relaxing than Con Dao. The Six Senses Con Dao is a stunning, sustainable resort in a private bay, complete with nourishing meals, yoga sessions, and an award-winning spa."
+      },
+      {
+        "activity": "Get on two wheels",
+        "description": "The coastal roads of Con Dao are a dream for cyclists and motorists alike. Within the town you can ride under ancient trees and past colonial buildings, and just outside are windy beaches, rocky coastline and jungled-covered slopes."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "See the top landmarks",
+        "description": "Walk down Đồng Khởi street to acquaint yourself with the Notre Dame Cathedral, the city's Central Post Office, and the Saigon Opera House. On a more local level, Bến Thành Market and the Jade Emperor Pagoda are worth a visit."
+      },
+      {
+        "activity": "Shop small boutiques",
+        "description": "Around District 1, a host of old apartments and former office buildings have been repurposed as shopping centres. Decades-old buildings such as 22 Lý Tự Trọng and 42 Nguyễn Huệ are brimming with all kinds of fascinating stores."
+      },
+      {
+        "activity": "Explore the Chinese Quarter",
+        "description": "The Chinese neighbourhood known as Chợ Lớn is great for exploring on foot. Head for Bình Tây Market, a colossal wholesale trading centre, and Thiên Hậu Pagoda, an atmospheric temple that pays homage to the goddess of the sea."
+      },
+      {
+        "activity": "Hop on a motorcycle",
+        "description": "Do as the locals do and hop on the back of a motorbike to see the city on street level and feel its energetic pulse. Motorbike tours set off in the evening, when the city is at its most romantic and the sidewalk vendors are out in force."
+      },
+      {
+        "activity": "Eat street food",
+        "description": "Ho Chi Minh City locals love to gather around dented metal tables across the city for incredible roadside feasts. Don't miss highlights such as bánh mì, southern-style savoury pancakes (bánh xèo) and broken rice (cơm tấm)."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/southern-vietnam",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Overview",
+        "description": "Home\n\t\t\t\t\t\n                                                            \t\t\t\t\t                    \n                        @media(min-width: 991px) {\n                            header nav > ul li.has-flyout.charm .flyout {\n                                width: 187px !important;\n                            }\n                        }\n                    \n                                        \n                                                                        Live fully in Vietnam"
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  },
+  {
+    "region": "Northern",
+    "province": "",
+    "url": "https://vietnam.travel/places-to-go/central-vietnam/phong-nha",
+    "html": "data\\raw_html\\.html",
+    "activities": [
+      {
+        "activity": "Join a cave expedition",
+        "description": "Enter the magical world of Phong Nha’s caves, which number 300 and counting. At Hang Nước Nứt, you can camp at the base of a limestone cliff, and Hang Én features a colossal main chamber with shimmering turquoise pools."
+      },
+      {
+        "activity": "Go in search of wildlife",
+        "description": "The ultimate way to discover Phong Nha’s flora and fauna is on Hai’s Eco Conservation Tour. Mr Hai, a young and enthusiastic conservationist, will bring you to the Wildlife Rescue Centre before trekking to the Thác Gió Falls for a cooling dip."
+      },
+      {
+        "activity": "Explore Bồng Lai Valley",
+        "description": "Hire a bike and pedal out to the Bồng Lai village in search of the Pub With Cold Beer. Here, only one item is on the menu: sublime grilled chicken served with unbeatable homemade peanut sauce. After lunch, ride to the pretty lookout at Wild Boar Eco Farm."
+      },
+      {
+        "activity": "Walk the eco-trail",
+        "description": "Nuoc Mooc Eco Trail is a serene retreat in the Phong Nha-Kẻ Bàng National Park. Its wooden walkways lead to tropical forest and turquoise streams. Hire a bike, pack a picnic and make your own adventure."
+      },
+      {
+        "activity": "See the Big One",
+        "description": "Hang Sơn Đoòng is said to be the largest cave in the world. It’s big enough to accommodate skyscrapers and has its jungle ecosystem. Multi-day tours to Hang Sơn Đoòng last four to six magical days."
+      }
+    ],
+    "most_similar": [
+      {
+        "province": "",
+        "score": 0.09352311785165762
+      },
+      {
+        "province": "",
+        "score": 0.08731151752405589
+      },
+      {
+        "province": "",
+        "score": 0.06778747372096802
+      }
+    ]
+  }
+]
