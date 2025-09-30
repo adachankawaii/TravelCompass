@@ -1,0 +1,1172 @@
+{
+  "generated_at_utc": "2025-09-30T02:00:59.177356+00:00",
+  "units": "metric",
+  "lang": "vi",
+  "count": 63,
+  "data": [
+    {
+      "query": "Hà Nội,VN",
+      "name": "Hanoi",
+      "country": "VN",
+      "lat": 21.0294498,
+      "lon": 105.8544441,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:00:59+00:00",
+        "temp": 27.16,
+        "feels_like": 30.97,
+        "humidity": 88,
+        "pressure": 1011,
+        "wind_speed": 5.72,
+        "clouds": 100,
+        "uvi": 2.22,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Hồ Chí Minh,VN",
+      "name": "Ho Chi Minh City",
+      "country": "VN",
+      "lat": 10.7758439,
+      "lon": 106.7017555,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:00+00:00",
+        "temp": 28.74,
+        "feels_like": 34.64,
+        "humidity": 83,
+        "pressure": 1011,
+        "wind_speed": 2.21,
+        "clouds": 100,
+        "uvi": 5.53,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Hải Phòng,VN",
+      "name": "Haiphong",
+      "country": "VN",
+      "lat": 20.858864,
+      "lon": 106.6749591,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:01+00:00",
+        "temp": 28.67,
+        "feels_like": 35.28,
+        "humidity": 87,
+        "pressure": 1011,
+        "wind_speed": 5.23,
+        "clouds": 100,
+        "uvi": 1.05,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Đà Nẵng,VN",
+      "name": "Da Nang",
+      "country": "VN",
+      "lat": 16.068,
+      "lon": 108.212,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:02+00:00",
+        "temp": 28.22,
+        "feels_like": 31.54,
+        "humidity": 73,
+        "pressure": 1011,
+        "wind_speed": 2.1,
+        "clouds": 86,
+        "uvi": 4.39,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Cần Thơ,VN",
+      "name": "Cần Thơ",
+      "country": "VN",
+      "lat": 10.0364216,
+      "lon": 105.7875219,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:03+00:00",
+        "temp": 28.68,
+        "feels_like": 34.26,
+        "humidity": 82,
+        "pressure": 1012,
+        "wind_speed": 3.36,
+        "clouds": 93,
+        "uvi": 4.75,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "An Giang,VN",
+      "name": "Làng Kon Giang",
+      "country": "VN",
+      "lat": 13.8922486,
+      "lon": 108.8152077,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:04+00:00",
+        "temp": 28.56,
+        "feels_like": 32.63,
+        "humidity": 75,
+        "pressure": 1012,
+        "wind_speed": 1.03,
+        "clouds": 100,
+        "uvi": 5.4,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bà Rịa-Vũng Tàu,VN",
+      "error": "geocode_failed: Geocode not found for 'Bà Rịa-Vũng Tàu,VN'"
+    },
+    {
+      "query": "Bắc Giang,VN",
+      "name": "Bắc Giang",
+      "country": "VN",
+      "lat": 21.2795479,
+      "lon": 106.2038074,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:06+00:00",
+        "temp": 25.55,
+        "feels_like": 26.64,
+        "humidity": 95,
+        "pressure": 1012,
+        "wind_speed": 3.1,
+        "clouds": 100,
+        "uvi": 0.27,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bắc Kạn,VN",
+      "name": "Bắc Kạn",
+      "country": "VN",
+      "lat": 22.1494915,
+      "lon": 105.837248,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:07+00:00",
+        "temp": 23.79,
+        "feels_like": 24.81,
+        "humidity": 99,
+        "pressure": 1013,
+        "wind_speed": 1.36,
+        "clouds": 100,
+        "uvi": 0.19,
+        "weather_desc": "mưa vừa",
+        "icon": "10d",
+        "rain_1h": 1.5
+      }
+    },
+    {
+      "query": "Bạc Liêu,VN",
+      "name": "Bạc Liêu",
+      "country": "VN",
+      "lat": 9.2824882,
+      "lon": 105.7260685,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:08+00:00",
+        "temp": 28.31,
+        "feels_like": 32.05,
+        "humidity": 75,
+        "pressure": 1012,
+        "wind_speed": 5.11,
+        "clouds": 98,
+        "uvi": 5.53,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bắc Ninh,VN",
+      "name": "Bắc Ninh",
+      "country": "VN",
+      "lat": 21.1781515,
+      "lon": 106.0710078,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:09+00:00",
+        "temp": 26.02,
+        "feels_like": 26.02,
+        "humidity": 93,
+        "pressure": 1012,
+        "wind_speed": 5.15,
+        "clouds": 100,
+        "uvi": 0.27,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bến Tre,VN",
+      "name": "Bến Tre City",
+      "country": "VN",
+      "lat": 10.2448214,
+      "lon": 106.3734823,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:10+00:00",
+        "temp": 27.68,
+        "feels_like": 32.15,
+        "humidity": 86,
+        "pressure": 1012,
+        "wind_speed": 1.36,
+        "clouds": 100,
+        "uvi": 5.21,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bình Định,VN",
+      "name": "Bình Định",
+      "country": "VN",
+      "lat": 13.8871486,
+      "lon": 109.112944,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:11+00:00",
+        "temp": 27.8,
+        "feels_like": 31.46,
+        "humidity": 79,
+        "pressure": 1012,
+        "wind_speed": 0.29,
+        "clouds": 100,
+        "uvi": 5.19,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bình Dương,VN",
+      "name": "Bình Dương",
+      "country": "VN",
+      "lat": 15.3376317,
+      "lon": 108.7688042,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:12+00:00",
+        "temp": 28.39,
+        "feels_like": 32.24,
+        "humidity": 75,
+        "pressure": 1011,
+        "wind_speed": 1.83,
+        "clouds": 99,
+        "uvi": 4.84,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bình Phước,VN",
+      "name": "Bình Phước",
+      "country": "VN",
+      "lat": 15.3165257,
+      "lon": 108.8014978,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:13+00:00",
+        "temp": 28.33,
+        "feels_like": 32.26,
+        "humidity": 76,
+        "pressure": 1011,
+        "wind_speed": 2.07,
+        "clouds": 100,
+        "uvi": 4.84,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Bình Thuận,VN",
+      "name": "Xã Bình Thuận",
+      "country": "VN",
+      "lat": 12.8033797,
+      "lon": 108.274201,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:14+00:00",
+        "temp": 25.51,
+        "feels_like": 26.02,
+        "humidity": 73,
+        "pressure": 1013,
+        "wind_speed": 0.46,
+        "clouds": 100,
+        "uvi": 4.27,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Cà Mau,VN",
+      "name": "Cà Mau City",
+      "country": "VN",
+      "lat": 9.1782047,
+      "lon": 105.1519707,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:15+00:00",
+        "temp": 28.71,
+        "feels_like": 32.45,
+        "humidity": 72,
+        "pressure": 1011,
+        "wind_speed": 3.26,
+        "clouds": 100,
+        "uvi": 5.33,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Cao Bằng,VN",
+      "name": "Cao Bằng",
+      "country": "VN",
+      "lat": 22.6657612,
+      "lon": 106.2588307,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:16+00:00",
+        "temp": 23.98,
+        "feels_like": 25.02,
+        "humidity": 99,
+        "pressure": 1013,
+        "wind_speed": 1.48,
+        "clouds": 100,
+        "uvi": 0.38,
+        "weather_desc": "mưa nhẹ",
+        "icon": "10d",
+        "rain_1h": 0.65
+      }
+    },
+    {
+      "query": "Đắk Lắk,VN",
+      "error": "geocode_failed: Geocode not found for 'Đắk Lắk,VN'"
+    },
+    {
+      "query": "Đắk Nông,VN",
+      "name": "Đăk Nông",
+      "country": "VN",
+      "lat": 14.7857076,
+      "lon": 107.6981646,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:18+00:00",
+        "temp": 24.68,
+        "feels_like": 25.24,
+        "humidity": 78,
+        "pressure": 1014,
+        "wind_speed": 0.69,
+        "clouds": 100,
+        "uvi": 2.59,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Điện Biên,VN",
+      "name": "Điện Biên",
+      "country": "VN",
+      "lat": 19.812202,
+      "lon": 105.7726705,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:19+00:00",
+        "temp": 28.2,
+        "feels_like": 33.83,
+        "humidity": 87,
+        "pressure": 1010,
+        "wind_speed": 3.36,
+        "clouds": 100,
+        "uvi": 3.69,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Đồng Nai,VN",
+      "name": "Xã Đồng Nai",
+      "country": "VN",
+      "lat": 11.8105637,
+      "lon": 107.3291301,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:20+00:00",
+        "temp": 25.99,
+        "feels_like": 25.99,
+        "humidity": 80,
+        "pressure": 1012,
+        "wind_speed": 1.63,
+        "clouds": 100,
+        "uvi": 5.14,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Đồng Tháp,VN",
+      "error": "geocode_failed: Geocode not found for 'Đồng Tháp,VN'"
+    },
+    {
+      "query": "Gia Lai,VN",
+      "name": "Giá Rai Town",
+      "country": "VN",
+      "lat": 9.2396617,
+      "lon": 105.4140329,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:21+00:00",
+        "temp": 29.06,
+        "feels_like": 32.86,
+        "humidity": 70,
+        "pressure": 1011,
+        "wind_speed": 4.65,
+        "clouds": 99,
+        "uvi": 5.33,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Hà Giang,VN",
+      "name": "Hà Giang",
+      "country": "VN",
+      "lat": 22.8264592,
+      "lon": 104.9846342,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:22+00:00",
+        "temp": 23.56,
+        "feels_like": 24.58,
+        "humidity": 100,
+        "pressure": 1013,
+        "wind_speed": 1.19,
+        "clouds": 100,
+        "uvi": 0.16,
+        "weather_desc": "mưa vừa",
+        "icon": "10d",
+        "rain_1h": 1.83
+      }
+    },
+    {
+      "query": "Hà Nam,VN",
+      "name": "Hà Nam",
+      "country": "VN",
+      "lat": 16.335831,
+      "lon": 107.7706,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:23+00:00",
+        "temp": 29.43,
+        "feels_like": 33.08,
+        "humidity": 67,
+        "pressure": 1010,
+        "wind_speed": 0.66,
+        "clouds": 100,
+        "uvi": 4.78,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Hà Tĩnh,VN",
+      "name": "Hà Tĩnh",
+      "country": "VN",
+      "lat": 18.3452745,
+      "lon": 105.9019482,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:25+00:00",
+        "temp": 27.85,
+        "feels_like": 31.73,
+        "humidity": 80,
+        "pressure": 1010,
+        "wind_speed": 2.15,
+        "clouds": 100,
+        "uvi": 3.52,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Hải Dương,VN",
+      "name": "Hải Dương City",
+      "country": "VN",
+      "lat": 20.9430878,
+      "lon": 106.3225388,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:26+00:00",
+        "temp": 27.28,
+        "feels_like": 31.42,
+        "humidity": 89,
+        "pressure": 1011,
+        "wind_speed": 5.9,
+        "clouds": 100,
+        "uvi": 1.85,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Hậu Giang,VN",
+      "error": "geocode_failed: Geocode not found for 'Hậu Giang,VN'"
+    },
+    {
+      "query": "Hòa Bình,VN",
+      "name": "Hòa Bình City",
+      "country": "VN",
+      "lat": 20.8130014,
+      "lon": 105.3452974,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:27+00:00",
+        "temp": 27.24,
+        "feels_like": 30.72,
+        "humidity": 84,
+        "pressure": 1011,
+        "wind_speed": 1.79,
+        "clouds": 100,
+        "uvi": 2.09,
+        "weather_desc": "mưa cường độ nặng",
+        "icon": "10d",
+        "rain_1h": 6.68
+      }
+    },
+    {
+      "query": "Hưng Yên,VN",
+      "name": "Hưng Yên",
+      "country": "VN",
+      "lat": 9.8461252,
+      "lon": 105.0965668,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:28+00:00",
+        "temp": 28.18,
+        "feels_like": 32.39,
+        "humidity": 79,
+        "pressure": 1011,
+        "wind_speed": 4.37,
+        "clouds": 100,
+        "uvi": 4.63,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Khánh Hòa,VN",
+      "name": "Xã Khánh Hòa",
+      "country": "VN",
+      "lat": 10.6846538,
+      "lon": 105.1908928,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:29+00:00",
+        "temp": 28.87,
+        "feels_like": 32.81,
+        "humidity": 72,
+        "pressure": 1011,
+        "wind_speed": 4.37,
+        "clouds": 100,
+        "uvi": 4.41,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Kiên Giang,VN",
+      "name": "Kiến Giang",
+      "country": "VN",
+      "lat": 17.2282422,
+      "lon": 106.7809474,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:30+00:00",
+        "temp": 29.16,
+        "feels_like": 33.48,
+        "humidity": 72,
+        "pressure": 1010,
+        "wind_speed": 0.57,
+        "clouds": 100,
+        "uvi": 3.85,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Kon Tum,VN",
+      "name": "Kon Tum City",
+      "country": "VN",
+      "lat": 14.3615256,
+      "lon": 108.0039102,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:31+00:00",
+        "temp": 25.86,
+        "feels_like": 26.49,
+        "humidity": 76,
+        "pressure": 1013,
+        "wind_speed": 0.3,
+        "clouds": 100,
+        "uvi": 5.12,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Lai Châu,VN",
+      "name": "Lai Châu",
+      "country": "VN",
+      "lat": 22.3996612,
+      "lon": 103.4516882,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:32+00:00",
+        "temp": 18.23,
+        "feels_like": 18.69,
+        "humidity": 99,
+        "pressure": 1012,
+        "wind_speed": 0.68,
+        "clouds": 100,
+        "uvi": 0.26,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Lâm Đồng,VN",
+      "name": "Lâm Đồng",
+      "country": "VN",
+      "lat": 22.8087023,
+      "lon": 104.9673151,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:33+00:00",
+        "temp": 24.09,
+        "feels_like": 25.17,
+        "humidity": 100,
+        "pressure": 1013,
+        "wind_speed": 1.06,
+        "clouds": 100,
+        "uvi": 0.16,
+        "weather_desc": "mưa vừa",
+        "icon": "10d",
+        "rain_1h": 1.78
+      }
+    },
+    {
+      "query": "Lạng Sơn,VN",
+      "name": "Lạng Sơn",
+      "country": "VN",
+      "lat": 21.8528759,
+      "lon": 106.7597458,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:34+00:00",
+        "temp": 24.47,
+        "feels_like": 25.4,
+        "humidity": 93,
+        "pressure": 1013,
+        "wind_speed": 2.18,
+        "clouds": 100,
+        "uvi": 2.43,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Lào Cai,VN",
+      "name": "Lào Cai",
+      "country": "VN",
+      "lat": 22.4997452,
+      "lon": 103.9656924,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:36+00:00",
+        "temp": 23.92,
+        "feels_like": 24.98,
+        "humidity": 100,
+        "pressure": 1011,
+        "wind_speed": 0.32,
+        "clouds": 100,
+        "uvi": 0.31,
+        "weather_desc": "mưa nhẹ",
+        "icon": "10d",
+        "rain_1h": 0.11
+      }
+    },
+    {
+      "query": "Long An,VN",
+      "name": "Long An",
+      "country": "VN",
+      "lat": 10.7995415,
+      "lon": 105.2068162,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:37+00:00",
+        "temp": 28.82,
+        "feels_like": 32.52,
+        "humidity": 71,
+        "pressure": 1011,
+        "wind_speed": 4.56,
+        "clouds": 100,
+        "uvi": 4.41,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Nam Định,VN",
+      "name": "Nam Định",
+      "country": "VN",
+      "lat": 20.4232641,
+      "lon": 106.1688515,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:38+00:00",
+        "temp": 27.77,
+        "feels_like": 32.41,
+        "humidity": 86,
+        "pressure": 1011,
+        "wind_speed": 6.65,
+        "clouds": 100,
+        "uvi": 2.85,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Nghệ An,VN",
+      "error": "geocode_failed: Geocode not found for 'Nghệ An,VN'"
+    },
+    {
+      "query": "Ninh Bình,VN",
+      "name": "Ninh Bình",
+      "country": "VN",
+      "lat": 20.2545421,
+      "lon": 105.9764854,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:39+00:00",
+        "temp": 27.95,
+        "feels_like": 32.92,
+        "humidity": 86,
+        "pressure": 1011,
+        "wind_speed": 5.42,
+        "clouds": 100,
+        "uvi": 3.85,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Ninh Thuận,VN",
+      "name": "Ninh Thuận",
+      "country": "VN",
+      "lat": 11.5600381,
+      "lon": 108.3518616,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:40+00:00",
+        "temp": 23.01,
+        "feels_like": 23.38,
+        "humidity": 77,
+        "pressure": 1014,
+        "wind_speed": 1.03,
+        "clouds": 100,
+        "uvi": 5.26,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Phú Thọ,VN",
+      "name": "Pho Tho Town",
+      "country": "VN",
+      "lat": 21.4000047,
+      "lon": 105.2238899,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:41+00:00",
+        "temp": 26.94,
+        "feels_like": 30.17,
+        "humidity": 86,
+        "pressure": 1011,
+        "wind_speed": 5.73,
+        "clouds": 100,
+        "uvi": 1.1,
+        "weather_desc": "mưa cường độ nặng",
+        "icon": "10d",
+        "rain_1h": 7.09
+      }
+    },
+    {
+      "query": "Phú Yên,VN",
+      "name": "Xã Phú Yên",
+      "country": "VN",
+      "lat": 20.6960147,
+      "lon": 105.8997565,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:42+00:00",
+        "temp": 27.96,
+        "feels_like": 33.11,
+        "humidity": 87,
+        "pressure": 1011,
+        "wind_speed": 4.7,
+        "clouds": 100,
+        "uvi": 3.41,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Quảng Bình,VN",
+      "name": "Quảng Bình",
+      "country": "VN",
+      "lat": 11.9180963,
+      "lon": 107.559307,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:43+00:00",
+        "temp": 25.4,
+        "feels_like": 25.93,
+        "humidity": 74,
+        "pressure": 1013,
+        "wind_speed": 1.05,
+        "clouds": 100,
+        "uvi": 5.51,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Quảng Nam,VN",
+      "name": "Trà Mai",
+      "country": "VN",
+      "lat": 15.1794882,
+      "lon": 108.1289381,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:44+00:00",
+        "temp": 28.16,
+        "feels_like": 29.81,
+        "humidity": 61,
+        "pressure": 1012,
+        "wind_speed": 0.61,
+        "clouds": 100,
+        "uvi": 4.83,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Quảng Ngãi,VN",
+      "name": "Quảng Ngãi City",
+      "country": "VN",
+      "lat": 15.1190037,
+      "lon": 108.8095598,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:46+00:00",
+        "temp": 28.27,
+        "feels_like": 32.45,
+        "humidity": 78,
+        "pressure": 1011,
+        "wind_speed": 1.67,
+        "clouds": 100,
+        "uvi": 4.84,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Quảng Ninh,VN",
+      "error": "geocode_failed: Geocode not found for 'Quảng Ninh,VN'"
+    },
+    {
+      "query": "Quảng Trị,VN",
+      "name": "Quảng Trị",
+      "country": "VN",
+      "lat": 16.7546907,
+      "lon": 107.1895518,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:47+00:00",
+        "temp": 29.26,
+        "feels_like": 33.71,
+        "humidity": 72,
+        "pressure": 1010,
+        "wind_speed": 1.1,
+        "clouds": 89,
+        "uvi": 5.09,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Sóc Trăng,VN",
+      "name": "Sóc Trăng",
+      "country": "VN",
+      "lat": 9.6026724,
+      "lon": 105.9733211,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:48+00:00",
+        "temp": 27.87,
+        "feels_like": 32.22,
+        "humidity": 83,
+        "pressure": 1012,
+        "wind_speed": 3.72,
+        "clouds": 98,
+        "uvi": 5.13,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Sơn La,VN",
+      "name": "Sơn La",
+      "country": "VN",
+      "lat": 21.3274048,
+      "lon": 103.9151701,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:49+00:00",
+        "temp": 20.89,
+        "feels_like": 21.65,
+        "humidity": 100,
+        "pressure": 1011,
+        "wind_speed": 0.92,
+        "clouds": 100,
+        "uvi": 0.51,
+        "weather_desc": "mưa nhẹ",
+        "icon": "10d",
+        "rain_1h": 0.65
+      }
+    },
+    {
+      "query": "Tây Ninh,VN",
+      "name": "Tây Ninh City",
+      "country": "VN",
+      "lat": 11.3138286,
+      "lon": 106.0964769,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:50+00:00",
+        "temp": 28.4,
+        "feels_like": 32.94,
+        "humidity": 79,
+        "pressure": 1012,
+        "wind_speed": 3.25,
+        "clouds": 100,
+        "uvi": 4.5,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Thái Bình,VN",
+      "name": "Thái Bình",
+      "country": "VN",
+      "lat": 20.449288,
+      "lon": 106.3424893,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:51+00:00",
+        "temp": 27.73,
+        "feels_like": 32.29,
+        "humidity": 86,
+        "pressure": 1011,
+        "wind_speed": 7.62,
+        "clouds": 100,
+        "uvi": 2.85,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Thái Nguyên,VN",
+      "name": "Thai Nguyen City",
+      "country": "VN",
+      "lat": 21.592477,
+      "lon": 105.8435398,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:52+00:00",
+        "temp": 24.49,
+        "feels_like": 25.58,
+        "humidity": 99,
+        "pressure": 1012,
+        "wind_speed": 2.37,
+        "clouds": 100,
+        "uvi": 0.5,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Thanh Hóa,VN",
+      "name": "Thanh Hóa",
+      "country": "VN",
+      "lat": 19.811719,
+      "lon": 105.7745698,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:19+00:00",
+        "temp": 28.2,
+        "feels_like": 33.83,
+        "humidity": 87,
+        "pressure": 1010,
+        "wind_speed": 3.36,
+        "clouds": 100,
+        "uvi": 3.69,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Thừa Thiên Huế,VN",
+      "name": "Huế",
+      "country": "VN",
+      "lat": 16.4639321,
+      "lon": 107.5863388,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:55+00:00",
+        "temp": 29.29,
+        "feels_like": 32.98,
+        "humidity": 68,
+        "pressure": 1010,
+        "wind_speed": 0.64,
+        "clouds": 100,
+        "uvi": 4.78,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Tiền Giang,VN",
+      "name": "Giang Tiên",
+      "country": "VN",
+      "lat": 21.6781639,
+      "lon": 105.7353967,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:56+00:00",
+        "temp": 24.32,
+        "feels_like": 25.39,
+        "humidity": 99,
+        "pressure": 1012,
+        "wind_speed": 1.87,
+        "clouds": 100,
+        "uvi": 0.5,
+        "weather_desc": "mưa nhẹ",
+        "icon": "10d",
+        "rain_1h": 0.45
+      }
+    },
+    {
+      "query": "Trà Vinh,VN",
+      "name": "Trà Vinh",
+      "country": "VN",
+      "lat": 9.9355829,
+      "lon": 106.3397849,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:57+00:00",
+        "temp": 27.8,
+        "feels_like": 32.19,
+        "humidity": 84,
+        "pressure": 1012,
+        "wind_speed": 2.42,
+        "clouds": 100,
+        "uvi": 5.72,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Tuyên Quang,VN",
+      "name": "Tuyên Quang",
+      "country": "VN",
+      "lat": 21.7879695,
+      "lon": 105.217387,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:58+00:00",
+        "temp": 25.97,
+        "feels_like": 25.97,
+        "humidity": 93,
+        "pressure": 1011,
+        "wind_speed": 1.27,
+        "clouds": 100,
+        "uvi": 0.74,
+        "weather_desc": "mưa cường độ nặng",
+        "icon": "10d",
+        "rain_1h": 7.95
+      }
+    },
+    {
+      "query": "Vĩnh Long,VN",
+      "name": "Vĩnh Long",
+      "country": "VN",
+      "lat": 10.2544281,
+      "lon": 105.9669665,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:01:59+00:00",
+        "temp": 28.71,
+        "feels_like": 34.76,
+        "humidity": 84,
+        "pressure": 1012,
+        "wind_speed": 3.11,
+        "clouds": 76,
+        "uvi": 4.75,
+        "weather_desc": "mây cụm",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Vĩnh Phúc,VN",
+      "name": "Vĩnh Phúc",
+      "country": "VN",
+      "lat": 18.416893,
+      "lon": 105.695355,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:02:00+00:00",
+        "temp": 28.05,
+        "feels_like": 32.22,
+        "humidity": 80,
+        "pressure": 1010,
+        "wind_speed": 0.75,
+        "clouds": 100,
+        "uvi": 3.52,
+        "weather_desc": "mây đen u ám",
+        "icon": "04d",
+        "rain_1h": null
+      }
+    },
+    {
+      "query": "Yên Bái,VN",
+      "name": "Yen Bai City",
+      "country": "VN",
+      "lat": 21.69611,
+      "lon": 104.8752392,
+      "minimal": {
+        "dt_utc": "2025-09-30T02:02:01+00:00",
+        "temp": 25.21,
+        "feels_like": 26.27,
+        "humidity": 95,
+        "pressure": 1011,
+        "wind_speed": 2.52,
+        "clouds": 100,
+        "uvi": 0.31,
+        "weather_desc": "mưa cường độ nặng",
+        "icon": "10d",
+        "rain_1h": 7.49
+      }
+    }
+  ]
+}
