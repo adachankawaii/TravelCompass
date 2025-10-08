@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Ngoc Anh Hotel Da Lat",
+    "price": "VND 539.333",
+    "location": "Đà Lạt",
+    "rating": "8.7",
+    "review_count": 9,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Olagi Hotel 2",
+    "price": "VND 475.000",
+    "location": "Khu Chi Lăng",
+    "rating": "9.1",
+    "review_count": 19,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Boho Boutique Da Lat - View nhà lồng lãng mạn",
+    "price": "VND 931.070",
+    "location": "Ấp Ða Thành",
+    "rating": "9.6",
+    "review_count": 67,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Homestay Thác Liên Khương",
+    "price": "VND 846.000",
+    "location": "Ðưc Trọng",
+    "rating": "6.9",
+    "review_count": 280,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Lê Mùi Hotel - Apartment",
+    "price": "VND 475.200",
+    "location": "Ấp Ða Thiên",
+    "rating": "9.5",
+    "review_count": 13,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "tropical garden homestay",
+    "price": "VND 720.000",
+    "location": "Lien Khuong Airport",
+    "rating": "9.2",
+    "review_count": 19,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Faru Pine Woods Villa",
+    "price": "VND 856.800",
+    "location": "Ấp Xuân An",
+    "rating": "9.3",
+    "review_count": 34,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "IZA Homestay",
+    "price": "VND 707.149",
+    "location": "Trai Mat",
+    "rating": "9.1",
+    "review_count": 26,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Mây Glamping",
+    "price": "VND 958.000",
+    "location": "Xuân Thọ",
+    "rating": "9.8",
+    "review_count": 5,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Lanh's Homestay Bảo Lộc",
+    "price": "VND 940.000",
+    "location": "Bảo Lộc",
+    "rating": "9.1",
+    "review_count": 18,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "SEN VILLA Boutique",
+    "price": "VND 1.500.000",
+    "location": "Bảo Lộc",
+    "rating": "9.0",
+    "review_count": 113,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Golden Apple Villa Đà Lạt",
+    "price": "VND 810.000",
+    "location": "Khu Chi Lăng",
+    "rating": "9.7",
+    "review_count": 19,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "DONG PHUONG HOTEL",
+    "price": "VND 1.550.000",
+    "location": "Bảo Lộc",
+    "rating": "8.9",
+    "review_count": 53,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "NEST House",
+    "price": "VND 809.600",
+    "location": "Ấp Kim Thạch",
+    "rating": "9.9",
+    "review_count": 15,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Famille Hotel - Central hotel in Dalat",
+    "price": "VND 1.008.000",
+    "location": "Ấp Xuân An",
+    "rating": "9.7",
+    "review_count": 7,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "TALA Dalat Hotel",
+    "price": "VND 570.366",
+    "location": "Đà Lạt",
+    "rating": "7.9",
+    "review_count": 269,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Memory Inn - Valley View",
+    "price": "VND 2.388.000",
+    "location": "Ấp Xuân An",
+    "rating": "9.1",
+    "review_count": 60,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Thanh Thanh Hotel",
+    "price": "VND 406.000",
+    "location": "Đà Lạt",
+    "rating": "7.9",
+    "review_count": 1394,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Pine Forest House Dalat",
+    "price": "VND 754.110",
+    "location": "Ấp Xuân An",
+    "rating": "8.8",
+    "review_count": 95,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "S Villa Hotel",
+    "price": "VND 590.400",
+    "location": "Ấp Ða Thành",
+    "rating": "8.9",
+    "review_count": 46,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Khách sạn Nguyên Long",
+    "price": "VND 760.000",
+    "location": "Bảo Lộc",
+    "rating": "8.6",
+    "review_count": 425,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Bee Luxury Dalat Hotel",
+    "price": "VND 883.804",
+    "location": "Ấp Xuân An",
+    "rating": "9.1",
+    "review_count": 12,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Greenview City Hotel",
+    "price": "VND 818.053",
+    "location": "Đà Lạt",
+    "rating": "8.7",
+    "review_count": 364,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "Perfect Homestay",
+    "price": "VND 1.323.000",
+    "location": "Ấp Xuân An",
+    "rating": "9.2",
+    "review_count": 19,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  },
+  {
+    "name": "S79 Khai Ngoc Hotel Dalat",
+    "price": "VND 777.600",
+    "location": "Đà Lạt",
+    "rating": "10",
+    "review_count": 5,
+    "crawl_time": "2025-09-27T15:34:40.171285+00:00"
+  }
+]

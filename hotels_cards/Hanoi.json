@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Westlake Lion Boutique Studio & Spa",
+    "price": "VND 1.915.650",
+    "location": "Quận Tây Hồ, Hà Nội",
+    "rating": "9.1",
+    "review_count": 14,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Classic Street Hotel",
+    "price": "VND 4.500.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.2",
+    "review_count": 5129,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "MAY DE VILLE Crown Hotel",
+    "price": "VND 9.650.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.6",
+    "review_count": 2505,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Hanoi Backpackers Lodge",
+    "price": "VND 560.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "8.7",
+    "review_count": 272,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Hanoi Emerald Waters Hotel Valley",
+    "price": "VND 3.528.180",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.5",
+    "review_count": 3555,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Lucien Hanoi Lakeside Hotel & Rooftop",
+    "price": "VND 7.200.085",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.7",
+    "review_count": 570,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Luxeden Hotel Hanoi",
+    "price": "VND 2.863.979",
+    "location": "Cau Giay, Hà Nội",
+    "rating": "9.3",
+    "review_count": 277,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Eliana Ruby Hotel & Travel",
+    "price": "VND 3.007.300",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.6",
+    "review_count": 2784,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "CLASSYC Hotel",
+    "price": "VND 20.628.506",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.6",
+    "review_count": 1539,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Le Premier Hotel & Rooftop Bar",
+    "price": "VND 41.600.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.9",
+    "review_count": 2195,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Scent Premium Hotel",
+    "price": "VND 6.951.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.6",
+    "review_count": 5526,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Salute Premium Hotel & Spa",
+    "price": "VND 3.429.500",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.6",
+    "review_count": 2121,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Splendid Star Grand Hotel and Spa",
+    "price": "VND 3.153.123",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.3",
+    "review_count": 2093,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Aira Boutique Hanoi Hotel & Spa",
+    "price": "VND 5.506.677",
+    "location": "Quận Hoàn Kiếm, Hà Nội",
+    "rating": "9.2",
+    "review_count": 2239,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "HOTEL du LAC Hanoi",
+    "price": "VND 5.502.716",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.5",
+    "review_count": 2192,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Hanoi Tirant Hotel",
+    "price": "VND 11.176.278",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.2",
+    "review_count": 2364,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Meritel Hanoi",
+    "price": "VND 10.702.293",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.5",
+    "review_count": 2899,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Omina Hotel & Travel",
+    "price": "VND 4.080.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.5",
+    "review_count": 990,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "La Belle Maison",
+    "price": "VND 6.800.600",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.6",
+    "review_count": 503,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Hanoi Dalvostro Valentino Hotel & Spa",
+    "price": "VND 26.007.756",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.5",
+    "review_count": 2334,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Ambassador Hanoi Hotel & Spa",
+    "price": "VND 2.550.039",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.1",
+    "review_count": 1784,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "H Hôtel L'Art Hanoi",
+    "price": "VND 7.939.713",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.9",
+    "review_count": 97,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "L'Signature Hotel & Spa",
+    "price": "VND 6.923.615",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.7",
+    "review_count": 1934,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Léman Old Quarter",
+    "price": "VND 3.249.000",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "9.9",
+    "review_count": 16,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  },
+  {
+    "name": "Hanoi Center Silk Hotel & Travel",
+    "price": "VND 3.583.600",
+    "location": "Quận Hoàn Kiếm, Hà Nội (Khu Phố Cổ)",
+    "rating": "8.9",
+    "review_count": 4252,
+    "crawl_time": "2025-09-27T12:46:37.071353+00:00"
+  }
+]
