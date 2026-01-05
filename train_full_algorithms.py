@@ -14,6 +14,8 @@ Cách chạy:
 import argparse
 import numpy as np
 import pandas as pd
+import joblib
+from pathlib import Path
 from typing import List, Dict
 
 from sklearn.model_selection import train_test_split
@@ -54,9 +56,15 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # ============================================================
 # TIỀN XỬ LÝ DỮ LIỆU (theo Algorithm 1)
 # ============================================================
+def _sparse_to_dense(X):
+    """Chuyển sparse matrix thành dense array"""
+    if hasattr(X, "toarray"):
+        return X.toarray()
+    return np.asarray(X)
+
 def make_dense():
     """Chuyển sparse matrix thành dense array"""
-    return FunctionTransformer(lambda X: X.toarray() if hasattr(X, "toarray") else np.asarray(X))
+    return FunctionTransformer(_sparse_to_dense)
 
 def build_preprocessor(df: pd.DataFrame, label_col: str):
     """
@@ -686,6 +694,26 @@ def main(args):
     
     save_results_to_excel(args.output, X_test_df, y_test, predictions, metrics)
     print_metrics_summary(metrics)
+    
+    # Save models
+    print("\n[6] Lưu models...")
+    models_to_save = {
+        'preprocessor': preprocessor,
+        'lgb_regressor': lgb_reg,
+        'cat_regressor': cat_reg,
+        'xgb_regressor': xgb_reg,
+        'mlp_regressor': mlp_reg,
+        'xgb_ranker': xgb_rank,
+        'lgb_ranker': lgb_rank,
+        'cat_ranker': cat_rank,
+        'mlp_pairwise': mlp_pair
+    }
+    
+    models_dir = Path("models")
+    models_dir.mkdir(exist_ok=True)
+    
+    joblib.dump(models_to_save, models_dir / "poi_models.pkl")
+    print(f"✓ Đã lưu models -> {models_dir / 'poi_models.pkl'}")
     
     print("\n" + "="*80)
     print("HOÀN THÀNH!")

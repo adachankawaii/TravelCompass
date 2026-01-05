@@ -11,6 +11,8 @@ Cách chạy:
 
 import pandas as pd
 import numpy as np
+import joblib
+from pathlib import Path
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -425,6 +427,22 @@ def main():
         pred_ranking = np.argsort(-pred)[:3]
         for i, idx in enumerate(pred_ranking, 1):
             print(f"  {i}. {test_cities[idx]} (pred={pred[idx]:.4f}, true={y_test[idx]:.4f})")
+    
+    # Save models
+    print("\n[7] Lưu models...")
+    models_to_save = {
+        'scaler': scaler,
+        'xgb_ranker': xgb_ranker,
+        'lgb_ranker': lgb_ranker,
+        'cat_ranker': cat_ranker,
+        'mlp_ranker': mlp_ranker
+    }
+    
+    models_dir = Path("models")
+    models_dir.mkdir(exist_ok=True)
+    
+    joblib.dump(models_to_save, models_dir / "province_models.pkl")
+    print(f"✓ Đã lưu models -> {models_dir / 'province_models.pkl'}")
     
     print("\n" + "="*80)
     print("HOÀN THÀNH!")

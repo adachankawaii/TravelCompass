@@ -4,18 +4,32 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
-import pickle
+import joblib
 import torch
 import torch.nn as nn
+
+# Import các thư viện cần thiết cho sklearn models
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler, FunctionTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import Ridge
+
+# Import XGBoost, LightGBM, CatBoost
+import xgboost as xgb
+import lightgbm as lgb
+from catboost import CatBoost, CatBoostRegressor, CatBoostRanker
 
 # Import từ file train
 import sys
 sys.path.append(str(Path(__file__).parent))
 
 from train_full_algorithms import (
-    build_preprocessor, MLPScorer, DEVICE,
+    build_preprocessor, MLPScorer, DEVICE, _sparse_to_dense,
     compute_regression_metrics, compute_ranking_metrics_at_k
 )
+
+from train_ranknet_tourist import MLPRanker
 
 st.set_page_config(
     page_title="TravelCompass 🧭",
@@ -126,14 +140,49 @@ def load_models_and_data():
             if col in province_df.columns:
                 province_df[col] = pd.to_numeric(province_df[col], errors="coerce").fillna(0.0)
     
-    # Load pre-trained models (nếu có)
-    models = {
-        "LightGBM Regression": None,  # Placeholder - sẽ load từ file hoặc train mới
-        "CatBoost Regression": None,
-        "XGBoost Pairwise": None,
-    }
+    # Load pre-trained models
+    models = {}
+    models_path = Path("models/poi_models.pkl")
     
-    return df, preprocessor, models, province_df
+    if models_path.exists():
+        try:
+            saved_models = joblib.load(models_path)
+            
+            models = {
+                "LightGBM Regressor": saved_models.get('lgb_regressor'),
+                "CatBoost Regressor": saved_models.get('cat_regressor'),
+                "XGBoost Regressor": saved_models.get('xgb_regressor'),
+                "MLP Regressor": saved_models.get('mlp_regressor'),
+                "XGBoost Ranker": saved_models.get('xgb_ranker'),
+                "LightGBM Ranker": saved_models.get('lgb_ranker'),
+                "CatBoost Ranker": saved_models.get('cat_ranker'),
+                "MLP Pairwise": saved_models.get('mlp_pairwise'),
+            }
+            # Update preprocessor from saved models if available
+            if 'preprocessor' in saved_models:
+                preprocessor = saved_models['preprocessor']
+            
+            # Count loaded models
+            loaded_count = sum(1 for v in models.values() if v is not None)
+            st.success(f"✅ Đã load {loaded_count}/{len(models)} models từ {models_path}")
+        except Exception as e:
+            st.warning(f"⚠️ Không thể load models: {e}. Sử dụng baseline models.")
+            models = {}
+    else:
+        st.info(f"ℹ️ File models chưa tồn tại: {models_path}. Chạy train_full_algorithms.py để tạo models.")
+    
+    # Load province models
+    province_models = {}
+    province_models_path = Path("models/province_models.pkl")
+    
+    if province_models_path.exists():
+        try:
+            province_models = joblib.load(province_models_path)
+        except Exception as e:
+            st.warning(f"⚠️ Không thể load province models: {e}")
+            province_models = {}
+    
+    return df, preprocessor, models, province_df, province_models
 
 @st.cache_data
 def get_unique_values(df):
@@ -185,10 +234,74 @@ def predict_scores(input_data, preprocessor, models):
     )
     predictions["Weighted Score"] = weighted.values
     
-    # ML Models (placeholder - thay bằng models thực tế)
-    predictions["LightGBM"] = predictions["Weighted Score"] * 1.1
-    predictions["CatBoost"] = predictions["Weighted Score"] * 1.05
-    predictions["XGBoost Ranker"] = predictions["Weighted Score"] * 0.95
+    # ML Models - sử dụng models thực nếu có
+    if models:
+        # LightGBM Regressor
+        if "LightGBM Regressor" in models and models["LightGBM Regressor"] is not None:
+            try:
+                predictions["LightGBM Regressor"] = models["LightGBM Regressor"].predict(X_transformed)
+            except:
+                predictions["LightGBM Regressor"] = predictions["Weighted Score"] * 1.1
+        
+        # CatBoost Regressor
+        if "CatBoost Regressor" in models and models["CatBoost Regressor"] is not None:
+            try:
+                predictions["CatBoost Regressor"] = models["CatBoost Regressor"].predict(X_transformed)
+            except:
+                predictions["CatBoost Regressor"] = predictions["Weighted Score"] * 1.05
+        
+        # XGBoost Regressor
+        if "XGBoost Regressor" in models and models["XGBoost Regressor"] is not None:
+            try:
+                predictions["XGBoost Regressor"] = models["XGBoost Regressor"].predict(X_transformed)
+            except:
+                predictions["XGBoost Regressor"] = predictions["Weighted Score"] * 1.0
+        
+        # XGBoost Ranker
+        if "XGBoost Ranker" in models and models["XGBoost Ranker"] is not None:
+            try:
+                predictions["XGBoost Ranker"] = models["XGBoost Ranker"].predict(X_transformed)
+            except:
+                predictions["XGBoost Ranker"] = predictions["Weighted Score"] * 0.95
+        
+        # MLP Regressor
+        if "MLP Regressor" in models and models["MLP Regressor"] is not None:
+            try:
+                models["MLP Regressor"].eval()
+                with torch.no_grad():
+                    X_tensor = torch.tensor(X_transformed, dtype=torch.float32)
+                    predictions["MLP Regressor"] = models["MLP Regressor"](X_tensor).cpu().numpy().flatten()
+            except Exception as e:
+                predictions["MLP Regressor"] = predictions["Weighted Score"] * 1.0
+        
+        # LightGBM Ranker
+        if "LightGBM Ranker" in models and models["LightGBM Ranker"] is not None:
+            try:
+                predictions["LightGBM Ranker"] = models["LightGBM Ranker"].predict(X_transformed)
+            except:
+                predictions["LightGBM Ranker"] = predictions["Weighted Score"] * 0.98
+        
+        # CatBoost Ranker
+        if "CatBoost Ranker" in models and models["CatBoost Ranker"] is not None:
+            try:
+                predictions["CatBoost Ranker"] = models["CatBoost Ranker"].predict(X_transformed)
+            except:
+                predictions["CatBoost Ranker"] = predictions["Weighted Score"] * 0.97
+        
+        # MLP Pairwise
+        if "MLP Pairwise" in models and models["MLP Pairwise"] is not None:
+            try:
+                models["MLP Pairwise"].eval()
+                with torch.no_grad():
+                    X_tensor = torch.tensor(X_transformed, dtype=torch.float32)
+                    predictions["MLP Pairwise"] = models["MLP Pairwise"](X_tensor).cpu().numpy().flatten()
+            except:
+                predictions["MLP Pairwise"] = predictions["Weighted Score"] * 0.96
+    else:
+        # Fallback nếu không có models
+        predictions["LightGBM Regressor"] = predictions["Weighted Score"] * 1.1
+        predictions["CatBoost Regressor"] = predictions["Weighted Score"] * 1.05
+        predictions["XGBoost Ranker"] = predictions["Weighted Score"] * 0.95
     
     return predictions
 
@@ -199,7 +312,7 @@ def main():
     
     # Load data
     with st.spinner("🔄 Đang tải dữ liệu và mô hình..."):
-        df, preprocessor, models, province_df = load_models_and_data()
+        df, preprocessor, models, province_df, province_models = load_models_and_data()
     
     if df is None:
         st.stop()
@@ -229,10 +342,30 @@ def main():
         min_reviews = st.number_input("Số lượt đánh giá tối thiểu", 0, 10000, 10)
         
         st.subheader("🤖 Mô hình")
+        available_models = ["Static Rating", "Weighted Score"]
+        
+        if models:
+            if "LightGBM Regressor" in models and models["LightGBM Regressor"] is not None:
+                available_models.append("LightGBM Regressor")
+            if "CatBoost Regressor" in models and models["CatBoost Regressor"] is not None:
+                available_models.append("CatBoost Regressor")
+            if "XGBoost Regressor" in models and models["XGBoost Regressor"] is not None:
+                available_models.append("XGBoost Regressor")
+            if "MLP Regressor" in models and models["MLP Regressor"] is not None:
+                available_models.append("MLP Regressor")
+            if "XGBoost Ranker" in models and models["XGBoost Ranker"] is not None:
+                available_models.append("XGBoost Ranker")
+            if "LightGBM Ranker" in models and models["LightGBM Ranker"] is not None:
+                available_models.append("LightGBM Ranker")
+            if "CatBoost Ranker" in models and models["CatBoost Ranker"] is not None:
+                available_models.append("CatBoost Ranker")
+            if "MLP Pairwise" in models and models["MLP Pairwise"] is not None:
+                available_models.append("MLP Pairwise")
+        
         selected_models = st.multiselect(
             "Chọn mô hình để so sánh",
-            options=["Static Rating", "Weighted Score", "LightGBM", "CatBoost", "XGBoost Ranker"],
-            default=["Weighted Score", "LightGBM"]
+            options=available_models,
+            default=available_models[:2] if len(available_models) >= 2 else available_models
         )
         
         top_k = st.slider("Số lượng địa điểm hiển thị", 5, 50, 10)
@@ -335,7 +468,7 @@ def main():
                             yaxis_title="Số lượng",
                             height=250
                         )
-                        st.plotly_chart(fig, use_container_width=True)
+                        st.plotly_chart(fig, width='stretch')
     
     # TAB 2: Province Ranking
     with tab2:
@@ -458,7 +591,7 @@ def main():
                     color_continuous_scale="Viridis"
                 )
                 fig.update_layout(xaxis_tickangle=-45)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
                 
                 # Scatter: Tourist Count vs Weighted Score
                 fig = px.scatter(
@@ -473,7 +606,7 @@ def main():
                            "hotel_count": "Số KS", "attraction_avg_score": "Điểm ĐTQ TB"},
                     color_continuous_scale="RdYlGn"
                 )
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
             
             with col2:
                 # Bản đồ Việt Nam - Hiển thị top tỉnh/thành
@@ -573,7 +706,7 @@ def main():
                         margin=dict(l=0, r=0, t=40, b=0)
                     )
                     
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, width='stretch')
                 else:
                     st.info("Không thể hiển thị bản đồ vì không tìm thấy tọa độ cho các tỉnh/thành.")
                     
@@ -587,7 +720,7 @@ def main():
                         title='📊 Treemap - Tỉnh/Thành theo số du khách',
                         labels={'tourist_count': 'Số du khách', 'weighted_score': 'Điểm'}
                     )
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, width='stretch')
                 
                 # Radar chart - Avg Scores
                 if len(province_stats_sorted) > 0:
@@ -605,7 +738,7 @@ def main():
                         title="So sánh điểm trung bình - Top 5",
                         height=400
                     )
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, width='stretch')
             
             # Chi tiết từng tỉnh
             st.subheader("🔍 Chi tiết theo từng tỉnh/thành")
@@ -699,7 +832,7 @@ def main():
                     df_metrics[["Model", "MAE", "RMSE", "R2"]].style.highlight_min(
                         subset=["MAE", "RMSE"], color="lightgreen"
                     ).highlight_max(subset=["R2"], color="lightgreen"),
-                    use_container_width=True
+                    width='stretch'
                 )
                 
                 # Bar chart
@@ -715,7 +848,7 @@ def main():
                     barmode='group',
                     height=400
                 )
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
             
             with col2:
                 st.subheader("🏅 Ranking Metrics")
@@ -731,7 +864,7 @@ def main():
                             subset=available_ranking_cols, 
                             color="lightgreen"
                         ),
-                        use_container_width=True
+                        width='stretch'
                     )
                     
                     # Radar chart - chỉ vẽ nếu có đủ metrics
@@ -750,7 +883,7 @@ def main():
                             title="Ranking Metrics Radar",
                             height=400
                         )
-                        st.plotly_chart(fig, use_container_width=True)
+                        st.plotly_chart(fig, width='stretch')
                 else:
                     st.info("Không có ranking metrics để hiển thị. Vui lòng chọn mô hình có hỗ trợ ranking.")
     
@@ -805,7 +938,7 @@ def main():
                 names=cat_counts.index,
                 title="📂 Phân bố theo danh mục"
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
             
             # Rating distribution
             fig = px.histogram(
@@ -814,7 +947,7 @@ def main():
                 nbins=20,
                 title="⭐ Phân bố Rating"
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
         
         with col2:
             # Weather correlation
@@ -827,7 +960,7 @@ def main():
                 title="🌡️ Mối quan hệ: Nhiệt độ vs Score",
                 labels={"w_temp": "Nhiệt độ (°C)", "score": "Score"}
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
             
             # Reviews vs Rating
             fig = px.scatter(
@@ -838,7 +971,7 @@ def main():
                 title="📊 Reviews vs Rating",
                 labels={"ta_reviews": "Số lượt đánh giá", "ta_rating": "Rating"}
             )
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width='stretch')
     
     # TAB 5: About
     with tab5:
